@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99182243-b675-49a5-a32c-7a8dc7d683d7" name="Default Changelist" comment="" />
+    <list default="true" id="99182243-b675-49a5-a32c-7a8dc7d683d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,91 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/HopToBig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/NGE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/Name.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/ReferenceConcept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/randomquestions/CountTheTriplets.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#828#846#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/randomquestions/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/multithreading/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="585">
+              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -140,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/com/interviewprep/String/ReferenceConcept.java" />
         <option value="$PROJECT_DIR$/src/com/randomquestions/Main.java" />
         <option value="$PROJECT_DIR$/src/com/randomquestions/CountTheTriplets.java" />
+        <option value="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java" />
       </list>
     </option>
   </component>
@@ -155,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,23 +105,15 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="interviewprep" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MustDoQuestions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MustDoQuestions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="randomquestions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581048623457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581388506230" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -211,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountTheTriplets">
+  <component name="RunManager" selected="Application.MaximumArithmeticSEQ">
     <configuration name="CountTheTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.randomquestions.CountTheTriplets" />
       <module name="MustDoQuestions" />
@@ -225,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HopToBig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewprep.String.HopToBig" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.randomquestions.Main" />
       <module name="MustDoQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interviewprep.String.*" />
+          <option name="PATTERN" value="com.randomquestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.randomquestions.Main" />
+    <configuration name="MaximumArithmeticSEQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewprep.arrayQuestions.MaximumArithmeticSEQ" />
       <module name="MustDoQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.randomquestions.*" />
+          <option name="PATTERN" value="com.interviewprep.arrayQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HopToBig" />
-      <item itemvalue="Application.NGE" />
-      <item itemvalue="Application.ReferenceConcept" />
       <item itemvalue="Application.CountTheTriplets" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.NGE" />
+      <item itemvalue="Application.ReferenceConcept" />
+      <item itemvalue="Application.MaximumArithmeticSEQ" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumArithmeticSEQ" />
         <item itemvalue="Application.CountTheTriplets" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReferenceConcept" />
         <item itemvalue="Application.NGE" />
-        <item itemvalue="Application.HopToBig" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +232,7 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -336,7 +253,7 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Favorites" order="8" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.38326225" />
+      <window_info anchor="right" id="Run" order="9" weight="0.38326225" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -458,17 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interviewprep/BST/BSTUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="142" column="93" selection-start-line="142" selection-start-column="93" selection-end-line="142" selection-end-column="93" />
-          <folding>
-            <element signature="e#3382#3383#0" expanded="true" />
-            <element signature="e#3457#3458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/BST/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -504,6 +410,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interviewprep/BST/BSTUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="93" selection-start-line="142" selection-start-column="93" selection-end-line="142" selection-end-column="93" />
+          <folding>
+            <element signature="e#3382#3383#0" expanded="true" />
+            <element signature="e#3457#3458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/HopToBig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -513,14 +430,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/NGE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
+        <state relative-caret-position="822">
           <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="165">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="e#167#168#0" expanded="true" />
@@ -533,7 +450,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/Name.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="195">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
@@ -545,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/multithreading/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/String/ReferenceConcept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -559,21 +469,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/randomquestions/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/randomquestions/CountTheTriplets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#828#846#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/randomquestions/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/multithreading/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
         </state>
       </provider>
     </entry>
