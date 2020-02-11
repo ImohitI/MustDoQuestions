@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99182243-b675-49a5-a32c-7a8dc7d683d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/FreqofCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="615">
+              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/FreqofCharacters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -64,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/com/randomquestions/Main.java" />
         <option value="$PROJECT_DIR$/src/com/randomquestions/CountTheTriplets.java" />
         <option value="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java" />
+        <option value="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/FreqofCharacters.java" />
       </list>
     </option>
   </component>
@@ -105,6 +115,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="interviewprep" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MustDoQuestions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MustDoQuestions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="interviewprep" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayQuestions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -113,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581388552028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581394390117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -128,13 +146,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumArithmeticSEQ">
+  <component name="RunManager" selected="Application.FreqofCharacters">
     <configuration name="CountTheTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.randomquestions.CountTheTriplets" />
       <module name="MustDoQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.randomquestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FreqofCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewprep.arrayQuestions.FreqofCharacters" />
+      <module name="MustDoQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewprep.arrayQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NGE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewprep.String.NGE" />
-      <module name="MustDoQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewprep.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReferenceConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interviewprep.String.ReferenceConcept" />
       <module name="MustDoQuestions" />
@@ -197,17 +215,17 @@
     <list>
       <item itemvalue="Application.CountTheTriplets" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.NGE" />
       <item itemvalue="Application.ReferenceConcept" />
       <item itemvalue="Application.MaximumArithmeticSEQ" />
+      <item itemvalue="Application.FreqofCharacters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FreqofCharacters" />
         <item itemvalue="Application.MaximumArithmeticSEQ" />
         <item itemvalue="Application.CountTheTriplets" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReferenceConcept" />
-        <item itemvalue="Application.NGE" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +240,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580175818128</updated>
     </task>
+    <task id="LOCAL-00001" summary="array question 1">
+      <created>1581388574540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581388574540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -232,7 +258,7 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -253,8 +279,12 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="right" id="Run" order="9" weight="0.38326225" />
+      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.38326225" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="array question 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="array question 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/SubArrayCountWithSum.java">
@@ -495,8 +525,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="615">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/FreqofCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
         </state>
       </provider>
     </entry>
