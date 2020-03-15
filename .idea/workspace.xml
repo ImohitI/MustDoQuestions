@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99182243-b675-49a5-a32c-7a8dc7d683d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/BSTConstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ClosestValueInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/MoveElementsToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/SmallestAbsoluteDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ThreeNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/TwoNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Basics102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/BookRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/BookType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/ClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/ConsoleLogging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/FileLogging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/GenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/GoodPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/LibraryBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Logging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/ReverseOrdering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basics/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/quickSort/ArrayQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/BSTConstructionValidationTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/basics/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/basics/Complex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MustDoQuestions/META-INF/MustDoQuestions.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/BSTConstruction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ClosestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ClosestValueInBST.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,102 +15,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="MustDoQuestions" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sorting/quickSort/ArrayQuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/basics/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" selection-start-line="9" selection-end-line="105" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#gadbadMethod#0;class#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/TwoNumberSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ThreeNumberSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#twoNumberSum#0;class#ThreeNumberSum#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/SmallestAbsoluteDiff.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/MoveElementsToEnd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ClosestValueInBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/BSTConstruction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Hashtable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -164,130 +45,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/SmallestSubArrayWithSumGreaterThanX.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SubArraywithGivenSum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SubArrayCountWithSum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SmallestSubArrayWithSum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MyInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MyClass.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MaxSumofSubArray.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/BST/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/BST/BSTUtility.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/BST/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/RemoveDupInPlace.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/SearchSortedRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/HopToBig.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/NGE.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/Name.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/multithreading/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/String/ReferenceConcept.java" />
-        <option value="$PROJECT_DIR$/src/com/randomquestions/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/randomquestions/CountTheTriplets.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/MaximumArithmeticSEQ.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/FreqofCharacters.java" />
-        <option value="$PROJECT_DIR$/src/com/interviewprep/arrayQuestions/ArraySumExceptCurrent.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Complex.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Stack.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/GenericStack.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/GoodPerson.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/BookRecord.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/ReverseOrdering.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Basics101.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Pet.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/BookType.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/LibraryBook.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Basics102.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Logging.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/ConsoleLogging.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/FileLogging.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/sorting/quickSort/ArrayQuickSort.java" />
-        <option value="$PROJECT_DIR$/src/com/basics/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/TwoNumberSum.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/TwoNumberSum.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ThreeNumberSum.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ProgramTest.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/SmallestAbsoluteDiff.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/MoveElementsToEnd.java" />
-        <option value="$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ClosestValueInBST.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1549" />
-    <option name="height" value="835" />
-  </component>
+  <component name="ProjectId" id="1Z8N5GRsvfjWBVGva3dwlucYT9s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MustDoQuestions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MustDoQuestions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MustDoQuestions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MustDoQuestions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MustDoQuestions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MustDoQuestions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MustDoQuestions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MustDoQuestions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysproblems" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584119894157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584201747315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Library/hamcrest-core-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ClosestValueInBST">
-    <configuration name="ClosestValueInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algoexpert.arraysproblems.ClosestValueInBST" />
+  <component name="RunManager" selected="Application.BSTConstructionValidationTraversal">
+    <configuration name="BSTConstructionValidationTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algoexpert.arraysproblems.BSTConstructionValidationTraversal" />
       <module name="MustDoQuestions" />
       <extension name="coverage">
         <pattern>
@@ -299,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.basics.Main" />
+    <configuration name="ClosestValueInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algoexpert.arraysproblems.ClosestValueInBST" />
       <module name="MustDoQuestions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.basics.*" />
+          <option name="PATTERN" value="com.algoexpert.arraysproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ThreeNumberSum" />
-      <item itemvalue="Application.SmallestAbsoluteDiff" />
-      <item itemvalue="Application.MoveElementsToEnd" />
       <item itemvalue="Application.ClosestValueInBST" />
+      <item itemvalue="Application.MoveElementsToEnd" />
+      <item itemvalue="Application.SmallestAbsoluteDiff" />
+      <item itemvalue="Application.ThreeNumberSum" />
+      <item itemvalue="Application.BSTConstructionValidationTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSTConstructionValidationTraversal" />
         <item itemvalue="Application.ClosestValueInBST" />
         <item itemvalue="Application.MoveElementsToEnd" />
         <item itemvalue="Application.SmallestAbsoluteDiff" />
         <item itemvalue="Application.ThreeNumberSum" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -435,450 +211,31 @@
       <configuration name="Basics102.arrayCopy" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.13059701" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.22555555" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.24777777" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="right" id="Run" order="9" visible="true" weight="0.45788914" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="array question 1" />
     <option name="LAST_COMMIT_MESSAGE" value="array question 1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/com/sun/corba/se/impl/orbutil/threadpool/TimeoutException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/jfr.jar!/oracle/jrockit/jfr/parser/ParseException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/basics/GoodPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StackOverflowError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/VirtualMachineError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="156" column="56" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="docComment;class#List#0" />
-            <element signature="docComment;method#size#0;class#List#0" />
-            <element signature="docComment;method#isEmpty#0;class#List#0" />
-            <element signature="docComment;method#contains#0;class#List#0" />
-            <element signature="docComment;method#iterator#0;class#List#0" />
-            <element signature="docComment;method#toArray#0;class#List#0" />
-            <element signature="docComment;method#toArray#1;class#List#0" />
-            <element signature="docComment;method#add#0;class#List#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/basics/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="1689" column="32" selection-start-line="1689" selection-start-column="28" selection-end-line="1689" selection-end-column="32" />
-          <folding>
-            <element signature="e#44838#44839#0" expanded="true" />
-            <element signature="e#44888#44889#0" expanded="true" />
-            <element signature="e#44950#44951#0" expanded="true" />
-            <element signature="e#45015#45016#0" expanded="true" />
-            <element signature="e#83550#83551#0" expanded="true" />
-            <element signature="e#83618#83619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3309">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/SortedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="117" column="11" lean-forward="true" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/NavigableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/basics/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/NavigableSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
-          <folding>
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1101">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-          <folding>
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14010">
-          <caret line="989" column="24" selection-start-line="989" selection-start-column="24" selection-end-line="989" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6345">
-          <caret line="483" column="19" selection-start-line="483" selection-start-column="19" selection-end-line="483" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="644" column="30" lean-forward="true" selection-start-line="644" selection-start-column="30" selection-end-line="644" selection-end-column="30" />
-          <folding>
-            <element signature="e#12147#13475#0" />
-            <element signature="e#14631#15535#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ProgramTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sorting/quickSort/ArrayQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/basics/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="9" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#gadbadMethod#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/TwoNumberSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ThreeNumberSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoNumberSum#0;class#ThreeNumberSum#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/SmallestAbsoluteDiff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/MoveElementsToEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/ClosestValueInBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algoexpert/arraysproblems/BSTConstruction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="688" height="889" key="GridCell.Tab.0.bottom" timestamp="1584240769107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="688" height="889" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584240769107" />
+    <state width="688" height="889" key="GridCell.Tab.0.center" timestamp="1584240769106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="688" height="889" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584240769106" />
+    <state width="688" height="889" key="GridCell.Tab.0.left" timestamp="1584240769106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="688" height="889" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584240769106" />
+    <state width="688" height="889" key="GridCell.Tab.0.right" timestamp="1584240769107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="688" height="889" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584240769107" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584238192728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584238192728" />
   </component>
   <component name="masterDetails">
     <states>
