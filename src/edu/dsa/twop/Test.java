@@ -26,17 +26,17 @@ public class Test {
         Arrays.sort(nums);
 
         // n1 , n2 , n3
-        for (int i = 1; i < nums.length - 1; i++) {
-            int nt = target - nums[i - 1];
+        for (int i = 0; i < nums.length - 2; i++) {
             int n1 = i;
-            int n2 = nums.length - 1;
+            int n2 = i + 1;
+            int n3 = nums.length - 1;
 
-            while (n1 < n2) {
-                int cs = nums[n1] + nums[n2];
-                if (cs < nt) {
-                    n1++;
-                } else if (cs > nt) {
-                    n2--;
+            while (n2 < n3) {
+                int cs = nums[n1] + nums[n2] + nums[n3];
+                if (cs < target) {
+                    n2++;
+                } else if (cs > target) {
+                    n3--;
                 } else {
                     return true;
                 }

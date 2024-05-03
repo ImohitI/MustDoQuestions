@@ -46,7 +46,7 @@ class FreqStack {
 // Driver code
 class Solution {
     public static void main(String[] args) {
-        int[] inputs = { 5, 7, 7, 7, 4, 5, 3 };
+        int[] inputs = { 5, 7, 7, 7, 7, 4, 5, 3 };
         FreqStack obj = new FreqStack();
         for (int i = 0; i < inputs.length; i++) {
             obj.push(inputs[i]);

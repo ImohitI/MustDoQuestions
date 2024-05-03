@@ -16,6 +16,8 @@ public class FractionToDecimal {
         }
 
         // If numerator or denominator is negative, then append "-" to the result
+        int p1 = 0 ^ denominator;
+        boolean cond = numerator < 0 ^ denominator < 0;
         if (numerator < 0 ^ denominator < 0) {
             System.out.println("\tAs numerator or denominator is negative. Appending - to the result");
             result += '-';
@@ -76,6 +78,8 @@ public class FractionToDecimal {
         int[][] inputs = { { 0, 4 }, { 4, 2 }, { 5, 333 }, { 2, 3 }, { 47, 18 }, { 93, 7 }, { -5, 333 }, { 47, -18 },
                 { -4, -2 } };
         for (int i = 0; i < inputs.length; i++) {
+            if (i != 2)
+                continue;
             System.out.print(i + 1 + ".\tInput: fraction_to_decimal(");
             for (int j = 0; j < inputs[i].length - 1; j++) {
                 System.out.print(inputs[i][j]);

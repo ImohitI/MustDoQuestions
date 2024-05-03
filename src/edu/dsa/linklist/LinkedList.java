@@ -38,8 +38,8 @@ public class LinkedList<T> {
     public void createLinkedList(int[] lst) {
         for (int i = lst.length - 1; i >= 0; i--) {
             LinkedListNode newNode = new LinkedListNode(lst[i]);
-            // insertNodeAtHead(newNode);
-            insertNodeAtTail(newNode);
+            insertNodeAtHead(newNode);
+            // insertNodeAtTail(newNode);
         }
     }
 

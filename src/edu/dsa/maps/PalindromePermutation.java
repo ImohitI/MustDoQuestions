@@ -52,7 +52,16 @@ public class PalindromePermutation {
             } else
                 System.out.println("\t\t\tFrequency is not odd, moving to the next character\n");
         }
-        return false;
+        // If the count is smaller than or equal to 1 then the permutation exists,
+        // otherwise does not
+        System.out.println("\n\tCount: " + count);
+        if (count <= 1) {
+            System.out.println("\tCount is <= 1, return TRUE");
+            return true;
+        } else {
+            System.out.println("\tCount > 1, returning FALSE");
+            return false;
+        }
     }
 
     public static void main(String args[]) {
@@ -64,7 +73,23 @@ public class PalindromePermutation {
                 System.out.println("\n\tInput string has permutations that are palindromes");
             else
                 System.out.println("\n\tInput string does not have a permutation that's a palindrome");
-            System.out.println(" ");
+            System.out.println(PrintHyphens.repeat('-', 100));
         }
+    }
+}
+
+class PrintHyphens {
+    public static String repeat(char hyphen, int n) {
+        if (n <= 0) {
+            System.out.println("Invalid input. Please provide a positive value for n.");
+            return "";
+        }
+
+        StringBuilder hyphenString = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            hyphenString.append(hyphen);
+        }
+
+        return hyphenString.toString();
     }
 }
