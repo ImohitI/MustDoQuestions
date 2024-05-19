@@ -9,11 +9,12 @@ public class PalindromePermutation {
         for (int i = 0; i < pvalue; i++) {
             out += arr.charAt(i);
         }
+        
         out += "«" + arr.charAt(pvalue) + "»";
         for (int i = pvalue + 1; i < arr.length(); i++) {
             out += arr.charAt(i);
         }
-        
+
         return out;
     }
 
