@@ -49,4 +49,38 @@ public class BinaryTree<T> {
         return root;
     }
     
+    public TreeNode<T> find(Integer value) {
+        TreeNode<T> current = root;
+
+        while (current != null) {
+            Integer currentData = (Integer) current.data; // Cast to Integer if necessary
+            if (currentData.equals(value)) { // Use equals() to compare Integers
+                return current;
+            } else if (value < currentData) {
+                current = current.left;
+            } else {
+                current = current.right;
+            }
+        }
+
+        return null;
+    }
+    public TreeNode<T> find1(T value) {
+        return findRec(root, value);
+    }
+
+    public TreeNode<T> findRec(TreeNode<T> root, T value) {
+        if (root == null || root.data.equals(value))
+            return root;
+
+        TreeNode<T> leftResult = findRec(root.left, value);
+        if (leftResult != null)
+            return leftResult;
+
+        TreeNode<T> rightResult = findRec(root.right, value);
+        if (rightResult != null)
+            return rightResult;
+
+        return null;
+    }
 }
