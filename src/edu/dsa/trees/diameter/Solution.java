@@ -75,6 +75,7 @@ public class Solution {
             BinaryTree<Integer> t = new BinaryTree<Integer>(lists.get(i));
             System.out.println((i + 1) + ".\tBinary Tree");
             printTree(t.root);
+            // BinaryTreePrinter.printTree(t.root);
             System.out.println(
                     "\n\tDiameter of Tree: " + diameterOfBinaryTree(t.root));
             System.out.println(new String(new char[100]).replace('\0', '-'));
@@ -91,5 +92,27 @@ public class Solution {
             printTree(node.left, prefix + (isLeft ? "│   " : "    "), true);
             printTree(node.right, prefix + (isLeft ? "│   " : "    "), false);
         }
+    }
+}
+class BinaryTreePrinter {
+    public static void printTree(TreeNode<Integer> root) {
+        if (root == null) {
+            System.out.println("No nodes in the tree.");
+            return;
+        }
+        System.out.println("Binary Tree:");
+        printTree(root, 0);
+    }
+
+    private static void printTree(TreeNode<Integer> node, int depth) {
+        if (node == null) {
+            return;
+        }
+        for (int i = 0; i < depth; i++) {
+            System.out.print("  ");
+        }
+        System.out.println(node.data);
+        printTree(node.left, depth + 1);
+        printTree(node.right, depth + 1);
     }
 }
