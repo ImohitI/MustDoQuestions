@@ -1,4 +1,4 @@
-package edu.dsa.twop;
+package edu.dsa.twop.first;
 
 public class MostWater {
 
