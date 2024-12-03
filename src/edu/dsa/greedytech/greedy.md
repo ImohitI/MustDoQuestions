@@ -34,4 +34,11 @@ if left + right < limit, left++, ,,, right-- ,,,, boats++
 timecomplexity --> O(n log n) --> sorting algo
 spacecomplexity --> O(n) --> sorting algo
 
+3. gas station 
+two arrays gas and cost 
+finding if we can start and finish at a station 
+the solution is unique 
+Timecomplexity -- O(n)
+Spacecomplexity -- O(1)
+
 
