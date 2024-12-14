@@ -41,4 +41,18 @@ the solution is unique
 Timecomplexity -- O(n)
 Spacecomplexity -- O(1)
 
+4. two city scheduling
+[acost, bcost] city a , city b cost for all candidate 
+n/2 people each city , minimum cost to invite all
+cost length is even 
+calculate ac1 -bc1, and sort
+low value means a is min
+high value means b is min
+first half of sorted array goes to a, and second goes to b
+
+sorting a 2d array based on diff
+Arrays.sort(arr, (a, b) -> (a[0] - a[1]) - (b[0] - b[1]))
+
+then just take first n/2 a 0index and last n/2 b 1indiex
+
 
