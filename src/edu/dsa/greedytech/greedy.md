@@ -92,3 +92,11 @@ build exc1 by adding fuit diff/2 times
 same for exc2 
 totalcost +=min(2*minfruit, min(exc1[i] - exc2[i])) 
 
+TC O (n+m)log(n+m) 
+SC O (n + m + k)
+
+9. No of step to reduce a binary num to 1
+strange logic need to understand again
+
+10. jump game 2
+??
