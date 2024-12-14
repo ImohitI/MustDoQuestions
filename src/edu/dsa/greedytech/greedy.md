@@ -54,5 +54,25 @@ sorting a 2d array based on diff
 Arrays.sort(arr, (a, b) -> (a[0] - a[1]) - (b[0] - b[1]))
 
 then just take first n/2 a 0index and last n/2 b 1indiex
+time complexity O nlogn
+space complexity O n 
 
 
+5. MinRefulStops
+max heap of gas tank capacity encountered yet
+keep going till u have gas
+when exhausted check if refueled at max capacity will u be able to proceed 
+We increase the maxdistance assuming we would stop at the max capacity gas station ecountered
+increase the stop, if heap is empty and target still not reached return -1
+when passing a gas station and fuel not required then add the capacity to max heap
+
+java priority queue is minheap by default, add Collections.reverseOrder() , to make it max heap
+Time complexity O(nlogn)
+Space complexity On
+
+6. Largest Palindromic Number
+given a string of num, make the largest palindrome
+freq map, start from largest, largest odd freq num is your middle
+
+Time complexity On
+Space complexity On
