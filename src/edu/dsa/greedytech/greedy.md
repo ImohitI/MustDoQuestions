@@ -76,3 +76,19 @@ freq map, start from largest, largest odd freq num is your middle
 
 Time complexity On
 Space complexity On
+
+7. Assign Cookies
+greedfactor size of cookie to content the child at every index
+cookie size arr
+TC O nlogn
+SC O(1)
+
+8. Rearranging fruits
+all no are type of fruits
+if freq count is odd not possible
+
+map1, map2 , diff , diff/2 is the no of fruits to be swapped
+build exc1 by adding fuit diff/2 times
+same for exc2 
+totalcost +=min(2*minfruit, min(exc1[i] - exc2[i])) 
+
