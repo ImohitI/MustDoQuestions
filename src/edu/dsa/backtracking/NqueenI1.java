@@ -3,8 +3,15 @@ package edu.dsa.backtracking;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
-public class Nqueen {
+/*
+ * 51. N-Queens
+ * Given an integer n, return all distinct solutions to the n-queens puzzle. You may return the answer in any order
+ * 
+ * Time Complexity: Exponential in nature since we are trying out all ways, to be precise its O(N! * N).
+ * Space Complexity: O( N2 )
+ * 
+ */
+public class NqueenI1 {
         public static List < List < String >> solveNQueens(int n) {
         char[][] board = new char[n][n];
         for (int i = 0; i < n; i++)

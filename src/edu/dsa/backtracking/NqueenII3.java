@@ -3,7 +3,7 @@ package edu.dsa.backtracking;
 import java.util.Arrays;
 import java.util.List;
 
-public class Nqueen4 {
+public class NqueenII3 {
     static int ans;
     
     public static int totalNQueens(int N) {

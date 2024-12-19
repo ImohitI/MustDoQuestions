@@ -15,7 +15,7 @@ import java.util.List;
  * Space complexity O(n) where n is the dimension of the chessboard
  * 
  */
-public class Nqueen3 {
+public class NqueenII1 {
 
 	public static void solveNQueensRec(int n, List<Integer> solution, int row, List<List<Integer>> results) {
 		if (row == n) {
