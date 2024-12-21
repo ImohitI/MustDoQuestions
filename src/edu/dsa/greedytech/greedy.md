@@ -98,14 +98,18 @@ SC O (n + m + k)
 9. No of step to reduce a binary num to 1
 strange logic need to understand again
 
-10. Maximum swaps
+10. Maximum swaps -- find max number with atmmost one swap
 bture force n2
 two pass n
 one pass n
 time complexity On
 Space complexity On, store string representation of input in n space 
 
-11. Can Place Flowers
+11. Can Place Flowers -- can we place n folwer , if config is 10101
+o empty , 1 is planted
+with the given flowerbed -- sequence of 10101,
+find if planting n flowers possible, true or false
+On, O1
 
 12. Largest odd no. in the string
 
