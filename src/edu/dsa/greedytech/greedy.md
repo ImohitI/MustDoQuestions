@@ -98,5 +98,16 @@ SC O (n + m + k)
 9. No of step to reduce a binary num to 1
 strange logic need to understand again
 
-10. jump game 2
+10. Maximum swaps
+bture force n2
+two pass n
+one pass n
+time complexity On
+Space complexity On, store string representation of input in n space 
+
+11. Can Place Flowers
+
+12. Largest odd no. in the string
+
+13. jump game 2
 ??
