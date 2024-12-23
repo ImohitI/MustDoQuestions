@@ -1,8 +1,12 @@
 package edu.dsa.backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.zip.CRC32;
 
 /*
  * 51. N-Queens
@@ -13,51 +17,57 @@ import java.util.List;
  * 
  */
 public class NqueenI2 {
-        public static List < List < String >> solveNQueens(int n) {
+    public static List<List<String>> solveNQueens(int n) {
         char[][] board = new char[n][n];
-        for (int i = 0; i < n; i++)
-            for (int j = 0; j < n; j++)
+        for (int i = 0; i < board.length ; i++) {
+            for (int j = 0; j < board[0].length ; j++) {
                 board[i][j] = '.';
-        List < List < String >> res = new ArrayList < List < String >> ();
-        int leftRow[] = new int[n];
-        int upperDiagonal[] = new int[2 * n - 1];
-        int lowerDiagonal[] = new int[2 * n - 1];
-        solve(0, board, res, leftRow, lowerDiagonal, upperDiagonal);
+            }
+        }
+
+        Set<Integer> col = new HashSet<>();
+        Set<Integer> posDiag = new HashSet<>();
+        Set<Integer> negDiag = new HashSet<>();
+
+        List<List<String>> res = new ArrayList<>();
+
+        bactrack(board, n, 0, col, posDiag, negDiag, res);
+
         return res;
     }
 
-
-
-    static void solve(int col, char[][] board, List < List < String >> res, int leftRow[], int lowerDiagonal[], int upperDiagonal[]) {
-        if (col == board.length) {
-            res.add(construct(board));
+    public static void bactrack(char[][] board, int n, int r,Set<Integer> col, Set<Integer> posDiag, Set<Integer> negDiag, List<List<String>> res) {
+        if (r == n) {
+            
+            List<String> ans = new ArrayList<>();
+            for (int i = 0; i < board.length; i++) {
+                ans.add(new String(board[i]));
+            }
+            res.add(ans);
             return;
         }
 
-        for (int row = 0; row < board.length; row++) {
-            if (leftRow[row] == 0 && lowerDiagonal[row + col] == 0 && upperDiagonal[board.length - 1 + col - row] == 0) {
-                board[row][col] = 'Q';
-                leftRow[row] = 1;
-                lowerDiagonal[row + col] = 1;
-                upperDiagonal[board.length - 1 + col - row] = 1;
-                solve(col + 1, board, res, leftRow, lowerDiagonal, upperDiagonal);
-                board[row][col] = '.';
-                leftRow[row] = 0;
-                lowerDiagonal[row + col] = 0;
-                upperDiagonal[board.length - 1 + col - row] = 0;
+        for (int c = 0; c < n; c++) {
+            if (col.contains(c) || posDiag.contains(c + r) || negDiag.contains(c - r)) {
+                continue;
             }
+
+            board[r][c] = 'Q';
+            col.add(c);
+            posDiag.add(c+r);
+            negDiag.add(c-r);
+
+            bactrack(board, n, r + 1, col, posDiag, negDiag, res);
+
+            board[r][c] = '.';
+            col.remove(c);
+            posDiag.remove(c+r);
+            negDiag.remove(c-r);
+
         }
+
     }
 
-
-    static List < String > construct(char[][] board) {
-        List < String > res = new LinkedList < String > ();
-        for (int i = 0; i < board.length; i++) {
-            String s = new String(board[i]);
-            res.add(s);
-        }
-        return res;
-    }
     public static void main(String args[]) {
         int N = 4;
         List < List < String >> queen = solveNQueens(N);

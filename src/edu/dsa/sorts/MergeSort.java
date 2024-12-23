@@ -56,9 +56,9 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        { int[] array = {12, 11, 13, 5, 6, 7}; 
+        int[] array = {12, 11, 13, 5, 6, 7}; 
         mergeSort(array); 
-        System.out.println("Sorted array: " + Arrays.toString(array));    }
+        System.out.println("Sorted array: " + Arrays.toString(array));    
 
     }
 }
