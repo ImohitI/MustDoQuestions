@@ -23,7 +23,8 @@
 8. Binary Watch 
 
 9. Optimal Account Balancing 
-
+ O(n -1)!
+ On
 10. Sudoku Solver 
      O(9(n*m)) time and takes O(n*m) space.
      worst case O(9^81)
@@ -34,4 +35,4 @@
      sc O(1)
      
 11. Matchsticks to Square 
-
+ 4^N

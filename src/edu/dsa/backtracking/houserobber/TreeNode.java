@@ -1,11 +1,11 @@
 package edu.dsa.backtracking.houserobber;
 
-class TreeNode<T> {
-    T data;
-    TreeNode<T> left;
-    TreeNode<T> right;
+public class TreeNode<T> {
+    public T data;
+    public TreeNode<T> left;
+    public TreeNode<T> right;
 
-    TreeNode(T data) {
+    public TreeNode(T data) {
         this.data = data;
         this.left = null;
         this.right = null;

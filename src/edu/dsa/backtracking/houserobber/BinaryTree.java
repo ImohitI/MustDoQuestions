@@ -2,10 +2,10 @@ package edu.dsa.backtracking.houserobber;
 
 import java.util.*;
 
-class BinaryTree<T> {
-    TreeNode<T> root;
+public class BinaryTree<T> {
+    public TreeNode<T> root;
 
-    BinaryTree(List<TreeNode<T>> ListOfNodes) {
+    public BinaryTree(List<TreeNode<T>> ListOfNodes) {
         root = createBinaryTree(ListOfNodes);
     }
 
