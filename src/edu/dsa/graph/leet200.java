@@ -42,7 +42,7 @@ public class leet200 {
 
      public void dfs(char[][] grid, int row, int col) {
         //check boundary
-        if (row < 0 || row > grid.length || col < 0 || col >= grid[0].length || grid[row][col] == '0')
+        if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length || grid[row][col] == '0')
             return;
         
         //mark cell as visited
