@@ -47,4 +47,51 @@ reuse threads, prevent overload, manage queue/backpressure
 - newWorkStealingPool(), ForkJoinPool()
     - parallel recursive tasks
 
+# ThreadPool Executor Intenals
+- ThreadPoolExecutor
+    - corePoolSize, maximumPoolSize, keepAliveTime, TimeUnit, 
+    - Blockingqueue<Runnable>, ThreadFactory, RejectedExecutionHandler
+- core - queue - max - reject 
 
+- task flow
+    - if running threads < core, create thread immediately
+    - Else if queue not full 
+    - add task to queue
+    - Else if threads < max 
+    - create extra thread 
+    - Else 
+    - Invoke rejected execution handler
+    
+- RejectExecutionHandler
+    - abortpolicy, throws RejectedExecutionException
+    - callerrunspolicy, caller thread executes the task
+    - discardpolicy, silently drop task
+    - discardoldestpolicy, removes oldest task in queue
+
+- queue types 
+    - Unbounded queue, used in FixedThreadPool
+    - new LinkedBlockingQueue<>()
+    - Bounded queue
+    - new ArrayBlockingQueue<>(1000)
+    - SynchronousQueue
+    - Used by cachedThreadPool (no queue, direct handoff)
+
+- ForkJoinPool 
+    - used in parallel streams, CompletableFuture default pool
+    - each worker has its own deque
+    - Idle workers steal work from others --> improved parallelism
+
+# Producer Consumer patterns
+- producer produces, consumer process data
+- shared buffer, holds data
+- slow producers vs fast producers
+- controlling pressure on downstream systems 
+- buffering data 
+- async communication 
+- decoupling modules 
+
+# method 1 : using blockingqueue
+- waiting
+- signaling 
+- thread safety
+- blocking behaviour
